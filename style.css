@@ -1,0 +1,76 @@
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+  }
+  div {
+    color: black;  
+    font-size: 15px;
+    margin-top: 11px; 
+    margin-left: 20px;
+    
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+    margin-left: 85%;
+  } 
+  li {
+    margin-left:5px;
+  }
+  
+  h1 {
+    color: red;
+    font-size: 20px;
+    margin-top: 50px; 
+    margin-left: 20px;
+  }
+  
+  h2 {
+      color: black;
+      font-size: 14px;
+      margin-top: 35px; 
+      margin-left: 20px;
+      
+  }
+  .narrow{
+    width: 10%;
+  }
+  
+  .go {
+      color: blue;
+      font-size: 15px;
+  }
+  .form-input{
+    display:flex;
+    justify-content: space-between;
+  }
+  input, input[type=text]{
+    margin-right: 45%;
+    width: 25rem;
+    padding: 0.5rem;
+  }
+  .numbers{
+    display: flex;
+  }
+  #numbers{
+    margin-left: 23.5%;
+  }
+  .to{
+    margin: 0 1rem 0 -44%;
+  }
+  input[type=submit]{
+    background: blue;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    margin-left: 35%;
+  }
+  .usage{
+    color: blue;
+  }
+  
+  
+  

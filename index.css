@@ -1,0 +1,86 @@
+*  {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    }
+    /* #1a1b1c; */
+    body, input, button{
+      background: #1a1b1c;
+    }
+  
+.link {
+        display: flex;
+        list-style-type: none;
+        margin-left: 85%;
+} 
+  
+      body {
+        box-sizing: border-box;
+    } 
+    
+    .google-iconform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 15% auto 0;
+    }
+  /* ...this auto margin is very important in centralizing the work... */
+    .google-iconarea {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  .google-iconspecific{
+        width: 25rem;
+    }
+  
+input[type=text] { 
+        width: 35rem;
+        height: 3rem;
+        border-radius: 25px;
+        border: solid 2px white;
+}
+  
+
+.typesearch{ 
+          display: flex; 
+          justify-content: center;
+          align-items: center;
+  }
+  
+.happy{ height: 2rem;
+      color: blue;
+      margin-left: -2445rem;
+      margin-top: 0.5rem;
+}
+  .buttons{
+      display: flex;
+}
+  .buttons-2{
+      display: flex;
+  }
+  .btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:0;
+  }
+  .form-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  input[type=submit]{
+    color: white;
+    padding: 10px;
+    margin: 10px 10px 5px;
+    border: none;
+    background: #393a3a;
+  }
